@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+    list-style: none;
+    font-family:新宋体;
+    /*    color: rgba(143, 139, 140, 0.12);*/
+}
+a{
+    text-decoration: none;
+}
+#box{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #1e1e1e;
+}
+header ul{
+    width:50%;
+    height: 100%;
+    margin: 0 auto;
+}
+header li a{
+    width: 16%;
+    height: 100%;
+    color: #fff;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+header li a:hover{
+    background: red;
+}
+#logo,.search{
+    height: 100%;
+    color: #fff;
+    font-family: 宋体;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+#logo{
+    height: 80%;
+    width: 100px;
+    margin-top: 5px;
+    float: left;
+    /*margin-left:10%;*/
+    background: red;
+}
+.search{
+    width: 250px;
+    height: 50px;
+    float: right;
+    margin-top: -40px;
+    overflow: hidden;
+
+    /*margin-right:10%;*/
+}
+.search img{
+    margin-top: 5px;
+    margin-left: 100px;
+    float: left;
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.search input{
+    height: 60%;
+    width: 1px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 200px;
+    font-size: 16px;
+    transition: 500ms;
+    opacity:0;
+
+}
+nav{
+    width: 100%;
+    height: 220px;
+
+}
+nav img{
+    width: 100%;
+    height: 220px;
+    margin-top: -10px;
+}
+aside{
+    width: 1170px;
+    height: 150px;
+    margin: 0px auto;
+    border-bottom: 1px solid #000;
+}
+#pos{
+    /*float: left;
+    */
+    font-size: 10px;
+    color: #9d9d9d;
+}
+hr{
+    float: left;
+    margin-top: 30px;
+    filter:alpha(opacity=5,finishopacity=100,style=1);
+}
+aside h1{
+    margin-top: 2px;
+    font-size: 40px;
+    font-family: 粗体;
+    float: left;
+
+}
+#about{
+    width: 550px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+.about_list{
+    width: 150px;
+    height:100%;
+    color: #000;
+    border: 1px solid #000;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left:30px ;
+}
+.active{
+    background: red;
+    color: #fff;
+    border: 0px;
+}
+article{
+    width: 100%;
+    position: relative;
+}
+.content{
+    width: 1170px;
+    margin: 0 auto;
+}
+.content .head{
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.name{
+    padding-top: 78px;
+    margin-left: 290px;
+}
+.profile{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+.profile li{
+    line-height: 30px;
+    font-size: 13px;
+}
+.detail{
+    clear: both;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.detail img{
+    margin-top: 30px;
+}
+.detail p{
+    margin-top: 30px;
+}
+.more{
+    margin-top: 26px;
+    font-size: 12px;
+    color: #ababab;
+    float: right;
+}
+.more:hover{
+    color: red;
+}
+
+.detailPicBox{
+    width: 100%;
+    height: 380px;
+    /* border: 1px solid #000;*/
+    margin-top: 10px;
+}
+.detailPicBox li{
+    width: 260px;
+    height: 220px;
+    margin-left: 26px;
+    float: left;
+    margin-top: 20px;
+}
+.detailPicBox li a{
+    color: #000;
+}
+.detailPicBox img{
+    width: 260px;
+
+}
+.detailPicBox h1{
+    margin-top: 16px;
+    font-size: 18px;
+
+    float: left;
+}
+.detailPicBox ul{
+    clear: both;
+}
+.detailPicBox h3{
+    margin-top: 10px;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 20px;
+}
+.detailPicBox u{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ababab;
+    width: 100%;
+    height: 40px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: block;
+
+}
+.detailPicBox u:after{
+    content: "...";
+}
+
+
+
+/**/
+.detailVidBox{
+    width: 100%;
+    height: 380px;
+    /* border: 1px solid #000;*/
+    margin-top: 10px;
+}
+.detailVidBox li{
+    width: 260px;
+    height: 220px;
+    margin-left: 26px;
+    float: left;
+    margin-top: 20px;
+}
+.detailVidBox img{
+    width: 260px;
+    height: 100%;
+
+}
+.detailVidBox h1{
+    margin-top: 16px;
+    font-size: 18px;
+    float: left;
+}
+.detailVidBox ul{
+    clear: both;
+}
+.detailVidBox h3{
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.detailVidBox u{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ababab;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    display: block;
+}
+
+.vid{
+    width: 260px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+}
+.vid video{
+    width:100%; height:100%;/* object-fit: fill;*/
+}
+.vidPlayBtn{
+    position: absolute;
+    top: 0px;
+    width: 260px;
+    height: 190px;
+    background:url("../img/ico/vidplay.png") center no-repeat;
+    opacity: 0.6;
+    background-size: 80px;
+    transition: 500ms;
+}
+.vidPlayBtn:hover{
+    background:url("../img/ico/vidplayhover.png") center no-repeat;
+    opacity: 0.4;
+    background-size: 50px;
+    box-shadow: 0 10px 100px #000000 inset;
+    /*transform: rotate(180deg);*/
+}
+
+footer{
+    background: #1e1e1e;
+    width: 100%;
+    height: 160px;
+}
+footer ul{
+    width:1170px;
+    height: 80%;
+    margin: 0 auto;
+}
+
+footer li {
+    width: 250px;
+    height: 30%;
+    color: #fff;
+    float: left;
+    margin-left: 30px;
+}
+.footImg{
+    width: 250px;
+    height: 100px;
+    margin: 30px auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+.ComIco a{
+    float: left;
+    width: 70px;
+    height: 80px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+.ComIco a img {
+    /*float: left;*/
+    width: 70px;
+    height: 80px;
+}
+
+.ComIco a:hover{
+    /*width: 70px;
+    height: 80px;*/
+    margin-top: 30px;
+}
+.shortcut{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 50px;
+    height: 300px;
+    background: #fff;
+    transition: 100ms;
+
+}
+.shortcut li{
+    width: 100%;
+    height: 60px;
+
+}
+
+.shortcut li:nth-child(1) {
+    background: url("../img/ico/awechat.png") no-repeat center;
+}
+.shortcut li:nth-child(2) {
+    background: url("../img/ico/aqq.png") no-repeat center;
+}
+.shortcut li:nth-child(3) {
+    background: url("../img/ico/axing.png") no-repeat center;
+}
+.shortcut li:nth-child(4) {
+    background: url("../img/ico/aphone.png") no-repeat center;
+}
+.shortcut li:nth-child(5){
+    background: url("../img/ico/back.png") no-repeat center;
+}
+
+
+.shortcut li:nth-child(1):hover{
+    background: url("../img/ico/awechatac.png") no-repeat center;
+}
+.shortcut li:nth-child(2):hover{
+    background: url("../img/ico/aqqac.png") no-repeat center;
+}
+.shortcut li:nth-child(3):hover{
+    background: url("../img/ico/axingac.png") no-repeat center;
+}
+.shortcut li:nth-child(4):hover{
+    background: url("../img/ico/aphoneac.png") no-repeat center;
+}
+.shortcut li:nth-child(5):hover{
+    background: url("../img/ico/backac.png") no-repeat center;
+}
+.shortcut li:nth-child(6){
+    position: absolute;
+    top: 0;
+    right:50px;
+    /*background: #fafafa;*/
+    width: 0px;
+    height: 300px;
+    transition: 500ms;
+    overflow: hidden;
+}
+.shortcutWindowImg{
+    width: 0px;
+    height: 200px;
+    transition: 500ms;
+    margin-left: 100px;
+    opacity: 0;
+}
+.shortcutWindowP{
+    display: block;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    transition: 0.3s;
+    text-align: center;
+}
+.shortcutWindow{
+
+    /*    border: 5px solid #100f0f;*/
+}
+.logoPage{
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.81);
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 10;
+
+}
+.logoPage p:nth-child(1){
+    color: #fff;
+    float: right;
+    font-size: 30px;
+    margin-right:20px;
+    margin-top:20px;
+    font-family: Arial;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logoPage p:nth-child(1):hover{
+    transform: rotate(180deg);
+}
+.logoPageBox {
+    background: #ffffff;
+    width: 400px;
+    height: 300px;
+    margin: 300px auto;
+    border: orangered 8px double;
+    position: relative;
+}
+.logoPageBox label{
+    width: 300px;
+    height: 50px;
+    display: block;
+    /*margin-left: 10%;*/
+    text-align: right;
+}
+.logoPageBox label:nth-child(1){
+    padding-top: 50px;
+}
+.logoPageBox label input{
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+}
+.logoBtn{
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
+}
+.logoBtn input{
+    width: 90px;
+    height:40px;
+}
+.logoBtn input:hover{
+    border:1px solid #ff9000;
+    color: #ff9000;
+    box-shadow:0 0 10px #ff9b2f inset;
+}
+.logoBtn input:nth-child(2){
+    margin-left: 20px;
+}
+.logoOption{
+    margin: 10px auto;
+    width: 140px;
+    height: 50px;
+}
+.logoPageBox a{
+    color: black;
+}
+.logoPageBox a:hover{
+    color: red;
+}
+
+
